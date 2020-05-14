@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.95, maximum-scale=0.95, user-scalable=0">
+	<title>Chess</title>
+	<style>
+		body{margin:0;overflow:hidden;}
+		#info {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			margin: 20px;
+			font-family: sans-serif;
+			color: white;
+		}
+		#cancel {
+			position: fixed;
+			bottom: 5px;
+			right: 5px;
+		}
+	</style>	
+</head>
+<body>
+
+<div id="info">
+	
+</div>
+<button id="cancel">Annuler le coup</button>
+
+<canvas id="myCanvas"></canvas>
+
+<script src="JS/jquery.js"></script>
+<script src="JS/nayl.js"></script>
+
+<script src="JS/three.js"></script>
+<script src="JS/OrbitControls.js"></script>
+<script src="JS/3d.js"></script>
+
+<script src="JS/game.js"></script>
+<script src="JS/engine.js"></script>
+</body>
+</html>
